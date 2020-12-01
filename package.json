@@ -1,0 +1,25 @@
+{
+    "name": "test_2",
+    "version": "1.0.0",
+    "description": "Insert project name!",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.0.2",
+        "browser-sync": "^2.26.12",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cli": "^2.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-minify": "^3.1.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0"
+    },
+    "dependencies": {}
+}

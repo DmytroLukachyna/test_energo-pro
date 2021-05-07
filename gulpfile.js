@@ -9,13 +9,11 @@ const htmlmin = require('gulp-htmlmin');
 const minify = require('gulp-minify');
 
 gulp.task('server', function() {
-
     browserSync({
         server: {
             baseDir: "dist"
         }
     });
-
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 

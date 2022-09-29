@@ -1,1 +1,1 @@
-https://dmytrolukachyna.pp.ua/projects/commercial/energo-pro/
+https://dmytrolukachyna.pp.ua/projects/test/energo-pro/

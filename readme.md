@@ -1,1 +1,1 @@
-https://dmytrolukachyna.github.io/projects/test_energo-pro/
+https://dmytrolukachyna.pp.ua/projects/commercial/energo-pro/

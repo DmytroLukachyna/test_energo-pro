@@ -14,12 +14,12 @@ $mail->isSMTP();
 $mail->CharSet = 'utf-8'; 
 $mail->Host = 'smtp.ukr.net';
 $mail->SMTPAuth = true;
-$mail->Username = 'web.development@ukr.net';
+$mail->Username = 'email@addre.ss';
 $mail->Password = 'passdeletedandrevoked';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom('web.development@ukr.net', 'Energo Pro');
-$mail->addAddress('web.development@ukr.net');
+$mail->setFrom('email@addre.ss', 'Energo Pro');
+$mail->addAddress('email@addre.ss');
 
 // Прикрепление файлов
   for ($ct = 0; $ct < count($_FILES['userfile']['tmp_name']); $ct++) {

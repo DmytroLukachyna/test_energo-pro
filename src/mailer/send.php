@@ -12,7 +12,7 @@ $mail = new PHPMailer;
 
 $mail->isSMTP();
 $mail->CharSet = 'utf-8'; 
-$mail->Host = 'smtp.ukr.net';
+$mail->Host = 'smtp.post.box';
 $mail->SMTPAuth = true;
 $mail->Username = 'email@addre.ss';
 $mail->Password = 'passdeletedandrevoked';

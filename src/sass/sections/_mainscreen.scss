@@ -1,5 +1,5 @@
 .mainscreen {
-  background: url('../img/mainscreen.jpg') no-repeat top center;
+  background: url("/img/mainscreen.jpg") no-repeat top center;
   min-height: 950px;
   padding: 10px 0 50px;
   position: relative;
@@ -243,7 +243,7 @@
             left: 22px;
             width: 12px;
             height: 10px;
-            background: url(../icons/photo.png) no-repeat 50% / cover;
+            background: url("/icons/photo.png") no-repeat 50% / cover;
           }
           &:after {
             position: absolute;
@@ -253,7 +253,7 @@
             right: 13px;
             width: 25px;
             height: 20px;
-            background: url(../icons/cloud.png) no-repeat 50% / cover;
+            background: url("/icons/cloud.png") no-repeat 50% / cover;
           }
         }
         .form__usertext {
@@ -271,21 +271,21 @@
             &:before {
               width: 12px;
               height: 12px;
-              background: url(../icons/filter_code.png) no-repeat 50% / cover;
+              background: url("/icons/filter_code.png") no-repeat 50% / cover;
             }
           }
           &_2 {
             &:before {
               width: 10px;
               height: 12px;
-              background: url(../icons/user.png) no-repeat 50% / cover;
+              background: url("/icons/user.png") no-repeat 50% / cover;
             }
           }
           &_3 {
             &:before {
               width: 12px;
               height: 12px;
-              background: url(../icons/call.png) no-repeat 50% / cover;
+              background: url("/icons/call.png") no-repeat 50% / cover;
             }
           }
         }

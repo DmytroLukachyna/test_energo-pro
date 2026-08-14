@@ -1,5 +1,6 @@
 # build
-/dist
+dist
+.wrangler
 
 # dependencies
 /node_modules

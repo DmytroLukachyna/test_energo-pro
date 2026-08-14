@@ -1,3 +1,7 @@
+import $ from './jquery-global.js';
+import 'slick-carousel';
+import '@fancyapps/fancybox';
+
 $(function () {
   'use strict';
   $(document).ready(function () {
@@ -10,28 +14,9 @@ $(function () {
     });
     $('.form__fields').submit(function (e) {
       e.preventDefault();
-      var formData = new FormData(this);
-      $.ajax({
-        url: 'mailer/send.php',
-        type: 'POST',
-        contentType: false,
-        processData: false,
-        data: formData,
-        success: function (msg) {
-          if (msg == 'ok') {
-            $('.form__userphoto').removeClass('form__userphoto_loaded');
-            alert('Спасибо за заявку! Мы свяжемся с вами в ближайшее время!');
-          } else {
-            $('.form__userphoto').removeClass('form__userphoto_loaded');
-            alert(
-              'Произошла ошибка, мы уже занимаемся решением ее проблемы. Попробуйте отправить заявку чуть позже. Спасибо!',
-            );
-          }
-        },
-      }).done(function () {
-        $(this).find('input').val('');
-        $('.form__fields').trigger('reset');
-      });
+      $('.form__userphoto').removeClass('form__userphoto_loaded');
+      $('.form__fields').trigger('reset');
+      alert('Форма временно отключена 😫');
     });
   });
   $('[data-fancybox]:not(.slick-cloned)').fancybox();

@@ -1,1 +1,1 @@
-https://dmytrolukachyna.pp.ua/projects/test/energo-pro/
+https://energo-pro.dmytrolukachyna.com/

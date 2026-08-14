@@ -1,0 +1,13 @@
+{
+  "name": "energo-pro",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "none",
+  },
+  "routes": [
+    { "pattern": "energo-pro.dmytrolukachyna.com", "custom_domain": true },
+  ],
+  "workers_dev": false,
+  "observability": { "enabled": true },
+}
